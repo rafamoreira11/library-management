@@ -13,7 +13,7 @@ function Header() {
                 <h1 className="header-logo-name">Minha Biblioteca</h1>
             </article>
             <article className="header-button">
-                <img src={Plus} alt="plus-icon" />
+                <img src={Plus} alt="plus-icon" className='plus-icon'/>
                 <p className="header-button-text">Adicionar Livro</p>
             </article>
         </header>

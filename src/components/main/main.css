@@ -1,0 +1,46 @@
+.search-conteiner{
+    margin: 50px 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-input-conteiner{
+    width: 70%;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    background-color: #7171823d;
+    border-radius: 10px;
+}
+
+.search-icon{
+    margin: 0 20px;
+}
+
+.search-input{
+    font-size: 12pt;
+    border: none ;
+    background-color: transparent;
+    width: 90%;
+    height: 100%;
+}
+
+.status-conteiner{
+    width: 15%;
+}
+
+.select-status{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    background-color: #7171823d;
+    height: 50px;
+}
+
+.books-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

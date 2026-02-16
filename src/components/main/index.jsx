@@ -19,7 +19,7 @@ function Main() {
             </article>
         </section>
         <section className='books-conteiner'>
-            <p className='nobooks=text'>Nenhum livro adicionado ainda. Comece adicionando seu primeiro livro!</p>
+            <p className='nobooks-text'>Nenhum livro adicionado ainda. Comece adicionando seu primeiro livro!</p>
         </section>
     </main>
   )

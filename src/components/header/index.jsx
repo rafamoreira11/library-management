@@ -3,7 +3,9 @@ import Plus from '../../assets/plus-icon.png'
 import './header.css'
 
 
-function Header() {
+function Header({ abrirModal }) {
+
+    
 
   return (
     
@@ -12,7 +14,7 @@ function Header() {
                 <img src={Logo} alt="logo" className="heaer-logo-img" />
                 <h1 className="header-logo-name">Minha Biblioteca</h1>
             </article>
-            <article className="header-button">
+            <article className="header-button" onClick={abrirModal}>
                 <img src={Plus} alt="plus-icon" className='plus-icon'/>
                 <p className="header-button-text">Adicionar Livro</p>
             </article>

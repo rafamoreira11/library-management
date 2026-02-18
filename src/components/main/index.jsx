@@ -1,6 +1,7 @@
 import './main.css'
 import Search from './search/index.jsx'
 import Info from './info/index.jsx'
+import Book from './books/index.jsx'
 
 function Main() {
 
@@ -8,9 +9,7 @@ function Main() {
     <main>
         <Info />
         <Search />
-        <section className='books-conteiner'>
-            <p className='nobooks-text'>Nenhum livro adicionado ainda. Comece adicionando seu primeiro livro!</p>
-        </section>
+        <Book />
     </main>
   )
 }

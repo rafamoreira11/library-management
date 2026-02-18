@@ -64,6 +64,45 @@
     border: 1px solid rgba(0, 0, 0, 0.377);
 }
 
+.books-conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.book-info-container{
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    width: 228px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.book-info-container p{
+    font-size: 11pt;
+    color: rgba(0, 0, 0, 0.774);
+    margin-top: 10px;
+}
+
+.book-texts-container{
+    width: 90%;
+}
+
+.book-cover-container{
+    width: 90%;
+}
+
+.book-cover{
+    height: 290px;
+    width: 196px;
+}
+
+.book-title{
+    font-size: 12pt;
+}
 
 
 @media screen and (max-width: 390px) {

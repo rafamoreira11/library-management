@@ -143,6 +143,13 @@
     .box-info-container{
         width: 80%;
     }
+
+    .books-conteiner{
+        place-items: center;
+        grid-template-columns: 1fr;
+    }
+
+    
 }
 
 @media screen and (min-width : 391px) and (max-width: 420px) {
@@ -183,4 +190,10 @@
     .box-info-container{
         width: 80%;
     }
+
+    .books-conteiner{
+        place-items: center;
+        grid-template-columns: 1fr;
+    }
+
 }

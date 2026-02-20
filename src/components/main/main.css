@@ -97,13 +97,41 @@
 
 .book-cover{
     height: 290px;
-    width: 196px;
+    width: 100%;
 }
 
 .book-title{
     font-size: 12pt;
 }
 
+.books-buttons{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.books-buttons button{
+    background: none;
+    border: 1px solid rgba(128, 128, 128, 0.76);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 90px;
+    height: 30px;
+    padding: 10px;
+}
+
+.books-buttons button:hover{
+    opacity: 0.8;
+}
+
+.btn-remove-book{
+    color: #D4183D;
+}
 
 @media screen and (max-width: 390px) {
     .search-conteiner{

@@ -1,4 +1,5 @@
-
+import Trash from '../../../assets/trash.png'
+import Pen from '../../../assets/pen.png'
 
 function Books(){
 
@@ -15,6 +16,10 @@ function Books(){
                     <p className="book-status">Lido</p>
                     <p className="book-coment">Gosatei muito do mangá, lerei os proximos capitulos</p>
                 </div>
+                <div className="books-buttons">
+                    <button className="btn-edit-book"><img src={Pen} alt="" /> Editar</button>
+                    <button className="btn-remove-book"><img src={Trash} alt="" /> Excluir</button>
+                </div>
             </article>
             <article className='book-info-container'>
                 <div className='book-cover-container'>
@@ -25,6 +30,10 @@ function Books(){
                     <p className="book-autor">Gege Akutami</p>
                     <p className="book-status">Lido</p>
                     <p className="book-coment">Gosatei muito do mangá, lerei os proximos capitulos</p>
+                </div>
+                <div className="books-buttons">
+                    <button className="btn-edit-book"><img src={Pen} alt="" /> Editar</button>
+                    <button className="btn-remove-book"><img src={Trash} alt="" /> Excluir</button>
                 </div>
             </article>
             <article className='book-info-container'>
@@ -37,6 +46,10 @@ function Books(){
                     <p className="book-status">Lido</p>
                     <p className="book-coment">Gosatei muito do mangá, lerei os proximos capitulos</p>
                 </div>
+                <div className="books-buttons">
+                        <button className="btn-edit-book"><img src={Pen} alt="" /> Editar</button>
+                        <button className="btn-remove-book"><img src={Trash} alt="" /> Excluir</button>
+                </div>
             </article>
             <article className='book-info-container'>
                 <div className='book-cover-container'>
@@ -48,6 +61,10 @@ function Books(){
                     <p className="book-status">Lido</p>
                     <p className="book-coment">Gosatei muito do mangá, lerei os proximos capitulos</p>
                 </div>
+                <div className="books-buttons">
+                    <button className="btn-edit-book"><img src={Pen} alt="" /> Editar</button>
+                    <button className="btn-remove-book"><img src={Trash} alt="" /> Excluir</button>
+                </div>
             </article>
             <article className='book-info-container'>
                 <div className='book-cover-container'>
@@ -58,6 +75,10 @@ function Books(){
                     <p className="book-autor">Gege Akutami</p>
                     <p className="book-status">Lido</p>
                     <p className="book-coment">Gosatei muito do mangá, lerei os proximos capitulos</p>
+                </div>
+                <div className="books-buttons">
+                    <button className="btn-edit-book"><img src={Pen} alt="" /> Editar</button>
+                    <button className="btn-remove-book"><img src={Trash} alt="" /> Excluir</button>
                 </div>
             </article>
             

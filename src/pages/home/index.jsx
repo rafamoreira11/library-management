@@ -1,5 +1,5 @@
 import Header from '../../components/header/index.jsx'
-import Modal from '../../components/modal/index.jsx'
+import ModalAdd from '../../components/modal-add/index.jsx'
 import Main from '../../components/main/index.jsx'
 import './style.css'
 import { useState } from 'react'
@@ -19,9 +19,8 @@ function Home() {
     <div className='home-conteiner'>
       <Header abrirModal={abrirModal}/>
       <Main />
-
       {openModal && (
-        <Modal fecharModal={fecharModal} />
+        <ModalAdd fecharModal={fecharModal} />
       )}
     </div>
   )

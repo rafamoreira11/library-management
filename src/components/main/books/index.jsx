@@ -1,7 +1,7 @@
 import Trash from '../../../assets/trash.png'
 import Pen from '../../../assets/pen.png'
 
-function Books(){
+function Books({abrirModal}){
 
     return (
     
@@ -14,10 +14,10 @@ function Books(){
                     <h2 className="book-title">Jujutsu Kaisen</h2>
                     <p className="book-autor">Gege Akutami</p>
                     <p className="book-status">Lido</p>
-                    <p className="book-coment">Gosatei muito do mangá, lerei os proximos capitulos</p>
+                    <p className="book-coment">Gostei muito do mangá, lerei os proximos capitulos</p>
                 </div>
                 <div className="books-buttons">
-                    <button className="btn-edit-book"><img src={Pen} alt="" /> Editar</button>
+                    <button className="btn-edit-book" onClick={abrirModal}><img src={Pen} alt="" /> Editar</button>
                     <button className="btn-remove-book"><img src={Trash} alt="" /> Excluir</button>
                 </div>
             </article>
@@ -29,10 +29,10 @@ function Books(){
                     <h2 className="book-title">Jujutsu Kaisen</h2>
                     <p className="book-autor">Gege Akutami</p>
                     <p className="book-status">Lido</p>
-                    <p className="book-coment">Gosatei muito do mangá, lerei os proximos capitulos</p>
+                    <p className="book-coment">Gostei muito do mangá, lerei os proximos capitulos</p>
                 </div>
                 <div className="books-buttons">
-                    <button className="btn-edit-book"><img src={Pen} alt="" /> Editar</button>
+                    <button className="btn-edit-book" onClick={abrirModal}><img src={Pen} alt="" /> Editar</button>
                     <button className="btn-remove-book"><img src={Trash} alt="" /> Excluir</button>
                 </div>
             </article>
@@ -44,10 +44,10 @@ function Books(){
                     <h2 className="book-title">Jujutsu Kaisen</h2>
                     <p className="book-autor">Gege Akutami</p>
                     <p className="book-status">Lido</p>
-                    <p className="book-coment">Gosatei muito do mangá, lerei os proximos capitulos</p>
+                    <p className="book-coment">Gostei muito do mangá, lerei os proximos capitulos</p>
                 </div>
                 <div className="books-buttons">
-                        <button className="btn-edit-book"><img src={Pen} alt="" /> Editar</button>
+                        <button className="btn-edit-book" onClick={abrirModal}><img src={Pen} alt="" /> Editar</button>
                         <button className="btn-remove-book"><img src={Trash} alt="" /> Excluir</button>
                 </div>
             </article>
@@ -59,10 +59,10 @@ function Books(){
                     <h2 className="book-title">Jujutsu Kaisen</h2>
                     <p className="book-autor">Gege Akutami</p>
                     <p className="book-status">Lido</p>
-                    <p className="book-coment">Gosatei muito do mangá, lerei os proximos capitulos</p>
+                    <p className="book-coment">Gostei muito do mangá, lerei os proximos capitulos</p>
                 </div>
                 <div className="books-buttons">
-                    <button className="btn-edit-book"><img src={Pen} alt="" /> Editar</button>
+                    <button className="btn-edit-book" onClick={abrirModal}><img src={Pen} alt="" /> Editar</button>
                     <button className="btn-remove-book"><img src={Trash} alt="" /> Excluir</button>
                 </div>
             </article>
@@ -74,10 +74,10 @@ function Books(){
                     <h2 className="book-title">Jujutsu Kaisen</h2>
                     <p className="book-autor">Gege Akutami</p>
                     <p className="book-status">Lido</p>
-                    <p className="book-coment">Gosatei muito do mangá, lerei os proximos capitulos</p>
+                    <p className="book-coment">Gostei muito do mangá, lerei os proximos capitulos</p>
                 </div>
                 <div className="books-buttons">
-                    <button className="btn-edit-book"><img src={Pen} alt="" /> Editar</button>
+                    <button className="btn-edit-book" onClick={abrirModal}><img src={Pen} alt="" /> Editar</button>
                     <button className="btn-remove-book"><img src={Trash} alt="" /> Excluir</button>
                 </div>
             </article>

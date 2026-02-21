@@ -1,9 +1,7 @@
 import Close from '../../../../assets/close.png'
 import './modal.css'
 
-function alert(){
-    window.alert("Editado com sucesso!")
-}
+
 
 function ModalEdit({fecharModal}) {
 
@@ -36,7 +34,7 @@ function ModalEdit({fecharModal}) {
                         <textarea className="form-textarea" required placeholder='Suas anotações sobre o livro (opcional)'/>
                         <div className='footer-buttons'>
                             <button className='btn-cancel' onClick={fecharModal}>Cancelar</button>
-                            <button className='btn-edit' type='submit' onClick={alert}>Atualizar</button>
+                            <button className='btn-edit' type='submit'>Atualizar</button>
                         </div>
                     </form>
                 </section>

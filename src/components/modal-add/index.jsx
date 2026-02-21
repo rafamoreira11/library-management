@@ -1,9 +1,6 @@
 import Close from '../../assets/close.png'
 import './modal.css'
 
-function alert(){
-    window.alert("Adicionado com sucesso!")
-}
 
 function ModalAdd({fecharModal}) {
 
@@ -33,7 +30,7 @@ function ModalAdd({fecharModal}) {
                         <textarea className="form-textarea" required placeholder='Suas anotações sobre o livro (opcional)'/>
                         <footer className='footer-buttons'>
                             <button className='btn-cancel' onClick={fecharModal}>Cancelar</button>
-                            <button className='btn-add' type='submit' onClick={alert}>Adicionar</button>
+                            <button className='btn-add' type='submit'>Adicionar</button>
                         </footer>
                     </form>
                 </section>

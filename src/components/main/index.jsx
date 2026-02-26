@@ -5,7 +5,7 @@ import Book from './books/index.jsx'
 import ModalEdit from './books/modal-edit/index.jsx'
 import { useState } from 'react'
 
-function Main({books}) {
+function Main({books, removeBooks, search, setSearch}) {
 
   const [openModal, setOpenModal] = useState(false)
 
@@ -20,8 +20,8 @@ function Main({books}) {
   return (
     <main>
         <Info />
-        <Search />
-        <Book books={books} abrirModal={abrirModal}/>
+        <Search search={search} setSearch={setSearch} />
+        <Book search={search} setSearch={setSearch} removeBooks={removeBooks} books={books} abrirModal={abrirModal}/>
         {openModal && (
           <ModalEdit fecharModal={fecharModal}/>
         )}

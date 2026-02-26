@@ -22,6 +22,14 @@ function Home() {
     fecharModal();
   };
 
+  const removeBooks = (id) =>{
+    const newBooks = [...books]
+    const filteredBooks = newBooks.filter(book => book.id != id ? book : null)
+    setBooks(filteredBooks)
+  }
+
+  const [search, setSearch] = useState("")
+
   function abrirModal() {
     setOpenModal(true);
   }
@@ -33,7 +41,7 @@ function Home() {
   return (
     <div className="home-conteiner">
       <Header abrirModal={abrirModal} />
-      <Main books={books}/>
+      <Main search={search} setSearch={setSearch} removeBooks={removeBooks} books={books} />
       {openModal && ( <ModalAdd fecharModal={fecharModal} addBooks={addBooks}/>)}
     </div>
   );

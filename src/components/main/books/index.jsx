@@ -3,14 +3,14 @@ import Pen from '../../../assets/pen.png'
 
 
 
-function Books({abrirModal, books}){
+function Books({abrirModal, books, removeBooks, search,}){
 
     
 
     return (
     
         <section className='books-conteiner'>
-            {books.map(book => (
+            {books.filter((book) => book.titulo.toLowerCase().includes(search.toLowerCase())).map(book => (
                 <article className='book-info-container' key={book.id}>
                     <div className='book-cover-container'>
                         <img src= {book.imagem} alt="" className='book-cover'/>
@@ -23,7 +23,7 @@ function Books({abrirModal, books}){
                     </div>
                     <div className="books-buttons">
                         <button className="btn-edit-book" onClick={abrirModal}><img src={Pen} alt="" /> Editar</button>
-                        <button className="btn-remove-book"><img src={Trash} alt="" /> Excluir</button>
+                        <button className="btn-remove-book" onClick={()=> removeBooks(book.id)}><img src={Trash} alt="" /> Excluir</button>
                     </div>
                 </article>
             ))}            
